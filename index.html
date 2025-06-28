@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shazzy's Pastries - Thrill in Every Bite</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Shazzy's Pastries</a>
+            <ul class="nav-links">
+                <li><a href="#home" data-section="home">Home</a></li>
+                <li><a href="#about" data-section="about">About</a></li>
+                <li><a href="#menu" data-section="menu">Menu</a></li>
+                <li><a href="#contact" data-section="contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">☰</button>
+            <div class="mobile-menu">
+                <a href="#home" data-section="home">Home</a>
+                <a href="#about" data-section="about">About</a>
+                <a href="#menu" data-section="menu">Menu</a>
+                <a href="#contact" data-section="contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="brand-logo">🥐</div>
+                    <h1>Shazzy's Pastries</h1>
+                    <p class="tagline">Thrill in Every Bite</p>
+                    <a href="https://wa.me/+2347084557057?text=Hello%20Shazzy's%20Pastries!%20I'd%20like%20to%20place%20an%20order." class="cta-button">Order Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Us</h2>
+                <div class="about-content">
+                    <p>Shazzy's Pastries is your go-to spot for delicious shawarma and pastries freshly made with love and quality ingredients. We pride ourselves on delivering exceptional taste and quality in every bite, bringing you the perfect blend of traditional flavors and modern culinary excellence.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Our Menu</h2>
+                <div class="menu-grid">
+                    <div class="menu-item" data-delay="0">
+                        <h3>Chicken Shawarma</h3>
+                        <p class="menu-price">₦5000</p>
+                    </div>
+                    <div class="menu-item" data-delay="100">
+                        <h3>Beef Shawarma</h3>
+                        <p class="menu-price">₦4000</p>
+                    </div>
+                    <div class="menu-item" data-delay="200">
+                        <h3>Meat Pie</h3>
+                        <p class="menu-price">₦3000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <h3>WhatsApp</h3>
+                        <a href="https://wa.me/+2347084557057?text=Hello%20Shazzy's%20Pastries!" class="contact-link">+234 708 455 7057</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Instagram</h3>
+                        <a href="https://instagram.com/shazzyspastries" class="contact-link">@shazzyspastries</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Location</h3>
+                        <p>Port-Harcourt, Nigeria</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+
+    <div class="loading">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Shazzy's Pastries. All rights reserved. Made with ❤️ for delicious food lovers.</p>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
