@@ -136,7 +136,7 @@
                 const itemName = this.querySelector('h3').textContent;
                 const itemPrice = this.querySelector('.menu-price').textContent;
                 const message = `Hi! I'd like to order ${itemName} (${itemPrice}). Is it available?`;
-                const whatsappUrl = `https://wa.me/+2347084557057?text=${encodeURIComponent(message)}`;
+                const whatsappUrl = `https://wa.me/+2348152525397?text=${encodeURIComponent(message)}`;
                 window.open(whatsappUrl, '_blank');
             });
         });
