@@ -141,7 +141,7 @@
             });
         });
 
-        // Add pulse animation to CTA button
+        // pulse animation to CTA button
         const ctaButton = document.querySelector('.cta-button');
         setInterval(() => {
             ctaButton.style.transform = 'scale(1.05)';
@@ -161,7 +161,7 @@
             }
         });
 
-        // Add typing effect to tagline
+        // typing effect to tagline
         function typeWriter(element, text, speed = 100) {
             let i = 0;
             element.innerHTML = '';
@@ -185,14 +185,7 @@
             }, 1500);
         });
 
-        // Add hover sound effect (optional)
-        function playHoverSound() {
-            // You can add audio functionality here if needed
-            // const audio = new Audio('hover-sound.mp3');
-            // audio.play();
-        }
-
-        // Add error handling for WhatsApp links
+        // error handling for WhatsApp links
         function handleWhatsAppError() {
             const whatsappLinks = document.querySelectorAll('a[href*="wa.me"]');
             whatsappLinks.forEach(link => {
